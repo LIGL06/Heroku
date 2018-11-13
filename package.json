@@ -1,0 +1,32 @@
+{
+  "name": "heroku",
+  "version": "1.0.0",
+  "description": "Test of Vue, Pusher, Node",
+  "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LIGL06/heroku.git"
+  },
+  "keywords": [
+    "Node",
+    "Vue",
+    "Pusher"
+  ],
+  "author": "Luis Iván García Luna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LIGL06/heroku/issues"
+  },
+  "homepage": "https://github.com/LIGL06/heroku#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4"
+  }
+}
