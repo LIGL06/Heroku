@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+    <% include ../partials/nav.ejs %>
+
+    <main id="app" class="mt-5">
+            <span v-bind:title="message">
+                    Hover your mouse over me for a few seconds
+                    to see my dynamically bound title!
+                  </span>
+    </main>
+
+    <% include ../partials/scripts.ejs %>
+</body>
+
+</html>
